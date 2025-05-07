@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+</head>
+<body>
+    <input type="text" autocomplete="new-password"><br>
+    <input type="text" autocomplete="current-password"><br>
+    <input type="text" autocomplete="off"><br>
+    <input type="text" autocomplete="on"><br>
+    <input type="text" autocomplete="address-line1"><br>
+    <input type="text" autocomplete="address-line2"><br>
+    <input type="text" autocomplete="address-line3"><br>
+    <input type="text" autocomplete="address-level1"><br>
+    <input type="text" autocomplete="address-level2"><br>
+    <input type="text" autocomplete="address-level3"><br>
+    <input type="text" autocomplete="address-level4"><br>
+    <input type="text" autocomplete="street-address"><br>
+    <input type="text" autocomplete="country"><br>
+    <input type="text" autocomplete="country-name"><br>
+    <input type="text" autocomplete="postal-code"><br>
+    <input type="text" autocomplete="name"><br>
+    <input type="text" autocomplete="additional-name"><br>
+    <input type="text" autocomplete="family-name"><br>
+    <input type="text" autocomplete="given-name"><br>
+    <input type="text" autocomplete="honoric-prefix"><br>
+    <input type="text" autocomplete="honoric-suffix"><br>
+    <input type="text" autocomplete="nickname"><br>
+    <input type="text" autocomplete="organization-title"><br>
+    <input type="text" autocomplete="username"><br>
+    <input type="text" autocomplete="new-password"><br>
+    <input type="text" autocomplete="current-password"><br>
+    <input type="text" autocomplete="bday"><br>
+    <input type="text" autocomplete="bday-day"><br>
+    <input type="text" autocomplete="bday-month"><br>
+    <input type="text" autocomplete="bday-year"><br>
+    <input type="text" autocomplete="sex"><br>
+    <input type="text" autocomplete="one-time-code"><br>
+    <input type="text" autocomplete="organization"><br>
+    <input type="text" autocomplete="cc-name"><br>
+    <input type="text" autocomplete="cc-given-name"><br>
+    <input type="text" autocomplete="cc-additional-name"><br>
+    <input type="text" autocomplete="cc-family-name"><br>
+    <input type="text" autocomplete="cc-number"><br>
+    <input type="text" autocomplete="cc-exp"><br>
+    <input type="text" autocomplete="cc-exp-month"><br>
+    <input type="text" autocomplete="cc-exp-year"><br>
+    <input type="text" autocomplete="cc-csc"><br>
+    <input type="text" autocomplete="cc-type"><br>
+    <input type="text" autocomplete="transaction-currency"><br>
+    <input type="text" autocomplete="transaction-amount"><br>
+    <input type="text" autocomplete="language"><br>
+    <input type="text" autocomplete="url"><br>
+    <input type="text" autocomplete="email"><br>
+    <input type="text" autocomplete="photo"><br>
+    <input type="text" autocomplete="tel"><br>
+    <input type="text" autocomplete="tel-country-code"><br>
+    <input type="text" autocomplete="tel-national"><br>
+    <input type="text" autocomplete="tel-area-code"><br>
+    <input type="text" autocomplete="tel-local"><br>
+    <input type="text" autocomplete="tel-local-prefix"><br>
+    <input type="text" autocomplete="tel-local-suffix"><br>
+    <input type="text" autocomplete="tel-extension"><br>
+    <input type="text" autocomplete="impp"><br>
+
+<script>
+[...document.getElementsByTagName("input")].forEach(input => {
+	input.after("attribute: "+input.getAttribute('autocomplete')+" / property: "+ input.autocomplete);
+});
+</script>
+
+</body></html>
